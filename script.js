@@ -6,54 +6,54 @@ const textoResultado = document.querySelector('.texto-resultado');
 
 const perguntas = [
     {
-        enunciado: "Você tem 6 anos e já uma estrela no futebol, possui uma habilidade nos pés como ninguém. Seu pai, ao notá-lo, te dá a oportunidade de entrar em uma escolinha",
+        enunciado: "Qual a classe de seu personagem?",
         alternativas: [
             {
-                texto: "Aceitar",
-                afirmacao: "Essa escolinha é reconhecida como a melhor ecolinha do estado do Paraná, sendo conhecida por ser o berço de grandes jogadores, logo, suas habilidades no futebol aumentam ainda mais."
+                texto: "Mago",
+                afirmacao: "Essa classe é especializada em dano mágico em área e de ongo alcance, com uma quantidade média de vida"
             },
             {
-                texto: "Recusar e treinar em casa",
-                afirmacao: "Por não ter um treinador, sua única alternativa é imitar os lances que vê na TV, usando cadeiras como bonecos e, depois, pondo em prática com o seu pai."
+                texto: "Guerreiro",
+                afirmacao: "Essa classe é especializada em dano físico de perto, contém um escudo e uma grande vida"
             }
         ]
     },
     {
-        enunciado: "O tempo passou e agora você tem 12 anos! Um olheiro percebe seu potencial e te chama para jogar no time da cidade. Obs: é um time pequeno.",
+        enunciado: "Você encontrou um monstro no caminho, o que fará?",
         alternativas: [
             {
-                texto: "É uma ótima chance de crescer, eu topo!",
-                afirmacao: "Graças a esse clube, você pode trocar experiências com outros jogadores e jogar com clubes de fora, ganhando inúmeras partidas e um grande destaque no próprio estado."
+                texto: "Batalho contra ele!",
+                afirmacao: "Graças às minhas habilidades consegui derrotar ele facilmente, ganhei seus espólios e equipei-me com itens novos. Fiquei um pouco mais forte."
             },
             {
-                texto: "Esse clube não me merece",
-                afirmacao: "Sua habilidade continuou a mesma e a soberba foi crescendo. Mesmo assim, você menteve o sonho de ser um grande jogador."
+                texto: "Vou fugir, é mais seguro.",
+                afirmacao: "Você conseguiu fugir, mas não ganhou nenhuma recompensa."
             }
         ]
     },
     {
-        enunciado: "Aos 17, perto de sair da categoria de base, seu pai numa última tentativa de torná-lo grande te increve na peneira do Vasco da Gama",
+        enunciado: "Você encontrou uma vila que estava sendo roubada por ladrões, o que você fará?",
         alternativas: [
             {
-                texto: "Me esforçar ao máximo para conseguir essa vaga",
-                afirmacao: "Você foi escolhido para jogar no Vasco, e não no sub 17! O treinador logo notou suas habilidades e te mandou direto para o time principal!"
+                texto: "Vou derrotar os ladrões, eu acho que consigo!",
+                afirmacao: "Você consegui expulsar todos da pequena vila. Ganhou os espólios deles, e ganhou a admiração de todos na vila."
             },
             {
-                texto: "Só fazer o que treinou em casa, você sabe que todos os que estão lá são perebentos no futebol",
-                afirmacao: "As coisas não aconteceram da forma que você planejava, pois o neto do Romário estava naquela peneira e te mandou direto pra casa. Aquilo foi um banho de água fria na sua vida."
+                texto: "Ignorar a situação, pois não cabe a mim  a proteção da vila.",
+                afirmacao: "Você passou reto, a vila foi destruída e saqueada, e você seguiu viagem."
             }
         ]
     },
     {
-        enunciado: "Você foi jogar um society com seus amigos e, por algum motivo, o treinador do Barcelona estava lá assistindo, passando o final de semana.",
+        enunciado: "Você Achou uma pessoa em situação de rua pedindo comida, o que fará?",
         alternativas: [
             {
-                texto: "Jogar como se fosse a partida da sua vida, vai que ele cresce o olho",
-                afirmacao: "Dito e feito! O técnico do Barcelona nem conversou com o presidente do clube e te contratou ali mesmo com um guardanapo e uma Bic falhada. Seu futuro está feito!"
+                texto: "Decido ajudar ele, pois precisa de ajuda.",
+                afirmacao: "O mendingo se revelou em um milionário, e te deu dinheiro o suficiente para você e seus sucessores viverem no luxo pelo resto de suas vidas, tudo por causa de sua bondade!"
             },
             {
-                texto: "Ele nem deve estar prestando atenção e eu tô numa preguiça, vou jogar de boa",
-                afirmacao: "O tongo jogou como se fosse o Ronaldo gordo, errou até o nó da chuteira e, novamente, o neto do Romário estava lá. Ele pegou sua vaga no Barcelona."
+                texto: "Chuta ele e fala para não encostar em você, pois acha nojento.",
+                afirmacao: "Ele, que se revelou um milionário, fez de sua vida um inferno, não deixando você comercializar seus itens."
             }
         ]
     },
