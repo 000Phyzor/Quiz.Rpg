@@ -58,15 +58,15 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "A seleção brasileira, na má fase, resolve chamar alguns voluntários para uma peneira e concorrer a chance de jogar a copa do mundo",
+        enunciado: "Você achou uma ruína inexplorada, o que fará?",
         alternativas: [
             {
-                texto:  "Destruir na peneira",
-                afirmacao: "É o novo Pelé! Foi convocado para a seleção, marcou 23 gols na final contra a Argentina, quebrou a perna do Messi e ainda ganhou a bola de ouro! Virou o jogador que mais ganha bem na história do futebol e se aposentou aos 30 anos por tédio, mas tem um contrato vitalício com o Barcelona e foi o rico pelo resto da vida!"
+                texto:  "Vou explorar, estou confiante!",
+                afirmacao: "Você conseguiu passar pelas armadilhas, e ao chegar na última sala, foi brutalmente assassinado pelo chefão final. Você foi morto pelo seu excesso de confiança."
             },
             {
-                texto: "Não conheço nenhum dos poucos jogadores que foram convocados e esses que estão na peneira não devem nem saber dominar a bola, não vou nem me esforçar",
-                afirmacao: "Na peneira, você tentou driblar o Thiago Silva (que estava com 53 anos e jogando na seleção), ele te deu um carrinho e quebrou sua perna em 8 partes diferentes. Você perdeu os movimentos da perna direita (a perna boa) e trabalhou como entregador daqueles panfletos que parecem uma nota de R$100 pelo resto da vida (reagiu ao assalto de um mendigo e morreu aos 30 anos)"
+                texto: "Vou voltar para casa, consigo proteger minnha família com o poder que tenho.",
+                afirmacao: "Você voltou tranquilamente para sua casa, e encontrou sua família morta. Sem motivos para viver, seguiu viagem até encontrar um templo budista, onde passou o resto de sua vida meditando sobre suas ações (boas e más)"
             }
         ]
     },
@@ -104,7 +104,7 @@ function respostaSelecionada(opcaoSelecionada){
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "No final de sua jornada...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
